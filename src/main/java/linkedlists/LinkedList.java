@@ -58,13 +58,12 @@ public class LinkedList  implements  Iterable<Node> {
 	 * @param elem element
 	 */
 	public void insertAtIndex(int i, int elem) {
-		// Iinsert a new node with the given elem
-		// at "index" i
+		// Insert a new node with the given elem at "index" i
 		// Example:
-		// If the linked list is 5 -> 7 - > 2 and we call
+		// If the linked list is 5 -> 7 - > 2, and we call
 		// insertAtIndex(1, 8), the linked list will be
 		// 5 -> 8 -> 7 -> 2  we inserted element 8 at "index" = 1.
-		// 5->8->11->7->2
+		// 5 -> 8 -> 11 -> 7 -> 2
 		// newNode = node with 11
 		if (i < 0)
 			return; // invalid i
